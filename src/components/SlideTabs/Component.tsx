@@ -27,11 +27,15 @@ const SlideTabs = ({ links }: { links: LinkProps[] }) => {
 					opacity: 0,
 				}));
 			}}
-			className="relative mx-auto flex w-fit rounded-full bg-[#343434] p-1">
+			className="relative mx-auto flex w-fit items-center justify-center rounded-full bg-[#343434] p-1">
 			{links.map((link, i) => {
 				return (
 					<Tab key={i} setPosition={setPosition}>
-						<Link href={link.url}>{link.label}</Link>
+						<Link
+							href={link.url}
+							className="block w-full h-full md:px-5 md:py-3 px-3 py-1.5">
+							{link.label}
+						</Link>
 					</Tab>
 				);
 			})}
@@ -64,7 +68,7 @@ const Tab = ({
 					opacity: 1,
 				});
 			}}
-			className="relative z-10 block cursor-pointer px-3 py-1.5 text-white md:px-5 md:py-3 md:text-base">
+			className="z-10 h-fit w-fit block cursor-pointer text-white md:text-base">
 			{children}
 		</li>
 	);

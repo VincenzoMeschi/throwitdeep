@@ -38,6 +38,7 @@
 	--radius-md: calc(var(--radius) - 2px);
 	--radius-lg: var(--radius);
 	--radius-xl: calc(var(--radius) + 4px);
+	--breakpoint-lg: 81.25rem;
 }
 
 :root {
@@ -57,7 +58,7 @@
 	--accent: #ff0016;
 	--accent-foreground: #ffffff;
 	--destructive: oklch(0.577 0.245 27.325);
-	--border: oklch(100% 0.00011 271.152 / 0.651);
+	--border: oklch(100% 0.00011 271.152 / 0.224);
 	--input: transparent;
 	--ring: oklch(0.708 0 0);
 	--chart-1: oklch(0.646 0.222 41.116);

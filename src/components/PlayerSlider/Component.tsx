@@ -33,13 +33,13 @@ export const PlayerSlider = ({
 
 	const scrollLeft = () => {
 		if (carouselRef.current) {
-			carouselRef.current.scrollBy({ left: -435, behavior: "smooth" });
+			carouselRef.current.scrollBy({ left: -340, behavior: "smooth" });
 		}
 	};
 
 	const scrollRight = () => {
 		if (carouselRef.current) {
-			carouselRef.current.scrollBy({ left: 435, behavior: "smooth" });
+			carouselRef.current.scrollBy({ left: 340, behavior: "smooth" });
 		}
 	};
 
@@ -57,7 +57,7 @@ export const PlayerSlider = ({
 				<div
 					className={cn(
 						"flex flex-row justify-start gap-4 pl-4",
-						"mx-auto max-w-7xl" // remove max-w-4xl if you want the carousel to span the full width of its container
+						"mx-auto w-full"
 					)}>
 					{items.map((item, index) => (
 						<motion.div

@@ -12,12 +12,12 @@ export const PlayerCard = ({
 	return (
 		<motion.div
 			layoutId={layout ? `card-${card.title}` : undefined}
-			className="relative z-10 flex h-80 w-56 flex-col items-start justify-end overflow-hidden rounded-3xl bg-gray-100 md:h-[40rem] md:w-[26.25rem] dark:bg-neutral-900">
+			className="relative z-10 flex h-[30rem] w-80 flex-col items-start justify-end overflow-hidden rounded-3xl bg-gray-100 md:h-[40rem] md:w-[26.25rem] dark:bg-neutral-900">
 			<div className="pointer-events-none absolute inset-x-0 top-0 z-30 h-full bg-gradient-to-t from-black/50 via-transparent to-transparent" />
-			<div className="relative z-40 p-8">
+			<div className="relative z-40 p-4 md:p-8">
 				<motion.h2
 					layoutId={layout ? `title-${card.title}` : undefined}
-					className="max-w-lg text-left text-5xl font-bold text-white">
+					className="md:max-w-lg text-left text-4xl md:text-5xl font-bold text-white">
 					{card.title}
 				</motion.h2>
 

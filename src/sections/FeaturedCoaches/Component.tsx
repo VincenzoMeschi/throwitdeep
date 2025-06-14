@@ -11,16 +11,16 @@ export const FeaturedCoaches: React.FC<FeaturedCoachesProps> = ({
 	return (
 		<div className="contents">
 			<h1
-				className="col-span-12 text-5xl font-bold text-center mt-26"
+				className="col-span-full text-4xl md:text-5xl font-bold md:text-center mt-26"
 				id="coaches">
 				{mainHeading}
 			</h1>
-			<div className="col-span-12 flex flex-col gap-y-5 mt-20">
+			<div className="col-span-full flex flex-col gap-y-5 mt-8 md:mt-20">
 				{coaches.map((coach, index) => {
 					return <CoachTile key={index} {...coach} />;
 				})}
 			</div>
-			<div className="col-span-12 flex justify-center mt-10">
+			<div className="col-span-full flex md:justify-center mt-10">
 				<CTAButton {...ctaButton} />
 			</div>
 		</div>

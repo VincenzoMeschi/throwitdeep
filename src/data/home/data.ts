@@ -8,7 +8,6 @@ export const HighImpactHeroData: HighImpactHeroProps = {
 	backgroundImage: {
 		src: "/Jeff_Christensen_Hero_Image.jpg",
 		alt: "Jeff Christensen training quarterbacks at Throw It Deep.",
-		fill: true,
 	},
 	leftSide: {
 		signature: {

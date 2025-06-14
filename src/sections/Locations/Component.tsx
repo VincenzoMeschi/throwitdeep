@@ -9,16 +9,16 @@ export const Locations: React.FC<LocationsProps> = ({
 	return (
 		<div className="contents">
 			<h2
-				className="col-span-12 text-center text-5xl font-bold mt-26"
+				className="col-span-full text-4xl md:text-center md:text-5xl font-bold mt-26"
 				id="locations">
 				{mainHeading}
 			</h2>
-			<div className="col-span-12 grid grid-cols-4 sm:grid-cols-6 lg:grid-cols-12 gap-x-5 gap-y-5 mt-20">
+			<div className="col-span-full grid grid-cols-4 sm:grid-cols-6 lg:grid-cols-12 gap-x-5 gap-y-5 mt-8 md:mt-20">
 				{cities.map((city, i) => {
 					return <StateCard key={i} {...city} />;
 				})}
-				<div className="col-span-4 flex flex-col p-5 justify-end rounded-3xl overflow-hidden h-56">
-					<h4 className="font-bold text-4xl">
+				<div className="col-span-4 flex flex-col p-5 justify-center md:justify-end rounded-3xl overflow-hidden h-56">
+					<h4 className="font-bold text-3xl md:text-4xl">
 						Don&apos;t see your state?
 					</h4>
 					<p>

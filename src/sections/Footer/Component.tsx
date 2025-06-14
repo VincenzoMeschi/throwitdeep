@@ -10,9 +10,9 @@ export const Footer: React.FC<FooterProps> = ({ leftSide, rightSide }) => {
 	return (
 		<footer className="w-full py-6 bg-primary">
 			<MainGrid>
-				<div className="col-span-3 flex flex-col gap-7">
-					<Image {...logo} className="w-full" />
-					<div className="flex flex-col gap-3">
+				<div className="md:col-span-3 col-span-4 flex flex-col gap-7">
+					<Image {...logo} className="w-2/3 md:w-full" />
+					<div className="flex flex-col gap-3 w-2/3 md:w-full">
 						<div className="flex gap-3 items-center">
 							<div className="rounded-full bg-white p-0.5">
 								<PhoneRounded className="text-primary scale-65" />
@@ -26,7 +26,7 @@ export const Footer: React.FC<FooterProps> = ({ leftSide, rightSide }) => {
 							<a href={`mailto:${email}`}>{email}</a>
 						</div>
 					</div>
-					<div className="flex gap-3 items-center">
+					<div className="flex gap-3 items-center w-2/3 md:w-full">
 						<a className="w-1/2" href="https://youtube.com">
 							<Image className="w-full" {...appStore} />
 						</a>
@@ -36,53 +36,55 @@ export const Footer: React.FC<FooterProps> = ({ leftSide, rightSide }) => {
 						</a>
 					</div>
 				</div>
-				<div className="col-start-7 col-span-2">
-					<h6 className="font-semibold mb-4">
-						{rightSide.linkGroup[0].heading}
-					</h6>
-					<ol>
-						{rightSide.linkGroup[0].links.map((link, i) => {
-							return (
-								<li key={i} className="mb-2">
-									<Link key={i} href={link.url}>
-										{link.label}
-									</Link>
-								</li>
-							);
-						})}
-					</ol>
-				</div>
-				<div className="col-start-9 col-span-2">
-					<h6 className="font-semibold mb-4">
-						{rightSide.linkGroup[1].heading}
-					</h6>
-					<ol>
-						{rightSide.linkGroup[1].links.map((link, i) => {
-							return (
-								<li key={i} className="mb-2">
-									<Link key={i} href={link.url}>
-										{link.label}
-									</Link>
-								</li>
-							);
-						})}
-					</ol>
-				</div>
-				<div className="col-start-11 col-span-2">
-					<h6 className="font-semibold mb-4">
-						{rightSide.linkGroup[2].heading}
-					</h6>
-					<ol>
-						{rightSide.linkGroup[2].links.map((link, i) => {
-							return (
-								<li key={i} className="mb-2">
-									<Link key={i} href={link.url}>
-										{link.label}
-									</Link>
-								</li>
-							);
-						})}
-					</ol>
+				<div className="lg:contents flex mt-12 col-span-4 md:col-span-6 w-full justify-between">
+					<div className="col-start-7 col-span-2">
+						<h6 className="font-semibold mb-4">
+							{rightSide.linkGroup[0].heading}
+						</h6>
+						<ol>
+							{rightSide.linkGroup[0].links.map((link, i) => {
+								return (
+									<li key={i} className="mb-2">
+										<Link key={i} href={link.url}>
+											{link.label}
+										</Link>
+									</li>
+								);
+							})}
+						</ol>
+					</div>
+					<div className="col-start-9 col-span-2">
+						<h6 className="font-semibold mb-4">
+							{rightSide.linkGroup[1].heading}
+						</h6>
+						<ol>
+							{rightSide.linkGroup[1].links.map((link, i) => {
+								return (
+									<li key={i} className="mb-2">
+										<Link key={i} href={link.url}>
+											{link.label}
+										</Link>
+									</li>
+								);
+							})}
+						</ol>
+					</div>
+					<div className="col-start-11 col-span-2">
+						<h6 className="font-semibold mb-4">
+							{rightSide.linkGroup[2].heading}
+						</h6>
+						<ol>
+							{rightSide.linkGroup[2].links.map((link, i) => {
+								return (
+									<li key={i} className="mb-2">
+										<Link key={i} href={link.url}>
+											{link.label}
+										</Link>
+									</li>
+								);
+							})}
+						</ol>
+					</div>
 				</div>
 			</MainGrid>
 			<div className="flex w-full py-2 justify-center bg-[#7070703d]">

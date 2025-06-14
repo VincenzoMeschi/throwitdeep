@@ -13,7 +13,7 @@ export const navigationData: NavigationProps = {
 			url: "/",
 		},
 		{
-			label: "About Us",
+			label: "About",
 			url: "#about",
 		},
 		{

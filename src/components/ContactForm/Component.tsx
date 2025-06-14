@@ -33,11 +33,11 @@ export const ContactForm: React.FC<FormProps> = ({
 
 	return (
 		<div className={cn("flex flex-col gap-8 my-26 ", className)}>
-			<div className="flex flex-col items-center gap-4">
-				<h2 className="text-[4rem] font-bold">
+			<div className="flex flex-col md:items-center gap-4">
+				<h2 className="text-5xl md:text-[4rem] font-bold">
 					{formHeading.mainHeading}
 				</h2>
-				<p className="text-2xl w-1/2 text-center text-[#ffffffa2]">
+				<p className="text-xl w-full md:text-2xl md:w-1/2 md:text-center text-[#ffffffa2]">
 					{formHeading.subText}
 				</p>
 			</div>
@@ -120,7 +120,7 @@ export const ContactForm: React.FC<FormProps> = ({
 				<button
 					type="submit"
 					disabled={isSubmitting}
-					className="col-span-full w-1/2 mx-auto rounded-md bg-accent mt-5 py-3 px-8 font-semibold text-primary-foreground cursor-pointer">
+					className="col-span-full w-full md:w-1/2 md:mx-auto rounded-md bg-accent mt-5 py-3 px-8 font-semibold text-primary-foreground cursor-pointer">
 					{isSubmitting ? "Sending..." : "Submit"}
 				</button>
 			</form>

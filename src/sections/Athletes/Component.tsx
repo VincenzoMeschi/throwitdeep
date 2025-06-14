@@ -10,12 +10,14 @@ export const AthleteSection: React.FC<AthleteSectionProps> = ({
 	return (
 		<div className="contents">
 			<h2
-				className="col-span-6 text-5xl font-bold scroll-mt-16"
+				className="md:col-span-6 col-span-full text-left text-4xl md:text-5xl font-bold scroll-mt-16"
 				id="about">
 				{mainHeading}
 			</h2>
-			<h6 className="col-span-6">{subHeading}</h6>
-			<PlayerSlider className="col-span-12 mt-14" items={carousel} />
+			<h6 className="md:col-span-6 col-span-full mt-8 lg:mt-0 text-left">
+				{subHeading}
+			</h6>
+			<PlayerSlider className="col-span-full mt-14" items={carousel} />
 		</div>
 	);
 };
