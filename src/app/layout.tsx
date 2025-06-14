@@ -41,7 +41,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en" className="scroll-smooth">
-			<body className={`antialiased h-full bg-accent`}>
+			<body className={`antialiased h-full bg-[#230306]`}>
 				<Navigation {...navigationData} />
 				<MainGrid>{children}</MainGrid>
 				<Footer {...footerData} />
