@@ -40,7 +40,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en" className="scroll-smooth">
+		<html lang="en" className="scroll-smooth bg-[#0f0f0f]">
 			<body className={`antialiased h-full`}>
 				<Navigation {...navigationData} />
 				<MainGrid>{children}</MainGrid>
