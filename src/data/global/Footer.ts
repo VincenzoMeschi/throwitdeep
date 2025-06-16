@@ -3,7 +3,7 @@ import { FooterProps } from "@/sections/Footer/config";
 export const footerData: FooterProps = {
 	leftSide: {
 		logo: {
-			src: "./ThrowItDeep_Logo.svg",
+			src: "/ThrowItDeep_Logo.svg",
 			alt: "Throw It Deep Logo",
 			width: 200,
 			height: 35,
@@ -43,6 +43,10 @@ export const footerData: FooterProps = {
 					{
 						label: "Contact",
 						url: "/contact",
+					},
+					{
+						label: "Coaches",
+						url: "/coaches",
 					},
 					{
 						label: "Book Session",

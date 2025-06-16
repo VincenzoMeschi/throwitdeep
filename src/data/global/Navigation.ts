@@ -2,7 +2,7 @@ import { NavigationProps } from "@/components/Navigation/config";
 
 export const navigationData: NavigationProps = {
 	logoSettings: {
-		src: "./ThrowItDeep_Logo.svg",
+		src: "/ThrowItDeep_Logo.svg",
 		alt: "Throw It Deep Logo",
 		width: 200,
 		height: 35,
@@ -19,6 +19,10 @@ export const navigationData: NavigationProps = {
 		{
 			label: "Training",
 			url: "#training",
+		},
+		{
+			label: "Coaches",
+			url: "/coaches",
 		},
 		{
 			label: "Contact",

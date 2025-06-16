@@ -20,9 +20,11 @@ export const FeaturedCoaches: React.FC<FeaturedCoachesProps> = ({
 					return <CoachTile key={index} {...coach} />;
 				})}
 			</div>
-			<div className="col-span-full flex md:justify-center mt-10">
-				<CTAButton {...ctaButton} />
-			</div>
+			{ctaButton && (
+				<div className="col-span-full flex md:justify-center mt-10">
+					<CTAButton {...ctaButton} />
+				</div>
+			)}
 		</div>
 	);
 };

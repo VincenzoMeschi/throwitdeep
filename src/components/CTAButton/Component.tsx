@@ -12,6 +12,7 @@ export const CTAButton: React.FC<CTAButtonProps> = ({
 	return (
 		<button className={cn(className, " rounded-full")}>
 			<Link
+				scroll={true}
 				href={url}
 				className={cn(
 					"w-fit h-fit py-3.5 rounded-full flex items-center",

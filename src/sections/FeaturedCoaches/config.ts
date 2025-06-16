@@ -4,5 +4,6 @@ import { CTAButtonProps } from "@/lib/types";
 export type FeaturedCoachesProps = {
 	mainHeading: string;
 	coaches: CoachTileProps[];
-	ctaButton: CTAButtonProps;
+	ctaButton?: CTAButtonProps;
+	
 };
