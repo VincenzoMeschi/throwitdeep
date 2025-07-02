@@ -79,20 +79,49 @@ export const FeaturedCoachesData: FeaturedCoachesProps = {
 	coaches: [
 		{
 			image: {
-				src: "https://res.cloudinary.com/dazxax791/image/upload/v1749595003/jeff_christensen_wp2bcs.jpg",
+				src: "https://res.cloudinary.com/dazxax791/image/upload/v1751429162/Jeff_Christensen_Headshot_vxzxbw.jpg",
 				alt: "Jeff Christensen coaching quarterbacks at a Throw it Deep session",
-				width: 1080,
-				height: 643,
 			},
 			slug: "jeff-christensen",
 			name: "Jeff Christensen",
 			featuredBio:
-				"Jeff is the founder and Head Quarterback Coach at Throw it Deep. He played QB at Eastern Illinois University, and was inducted into EIU Hall of Fame. He was the 135th player selected in 1983 NFL Draft by Cincinnati Bengals (First QB ever drafted out of EIU). During his 8 years in the NFL, he played for the Bengals, Rams, Eagles, Browns, Jets, and Broncos. Jeff started coaching quarterbacks in 1990, and has since coached over 4,000 quarterbacks.",
+				"Throw It Deep is a proven system that turns raw talent into champions through fundamentals. Jeff Christensen founded the program in 2005 after an eight-year NFL career and three decades of coaching quarterbacks. He played at Eastern Illinois University and became the first EIU quarterback drafted when the Bengals picked him 135th overall in 1983. He entered the Eastern Illinois Hall of Fame before starting his coaching career in 1990. Since then he has trained over 4,000 quarterbacks.",
 			fullBio: [
-				"Jeff is the founder and Head Quarterback Coach at Throw it Deep. He played QB at Eastern Illinois University, and was inducted into EIU Hall of Fame. He was the 135th player selected in 1983 NFL Draft by Cincinnati Bengals (First QB ever drafted out of EIU). During his 8 years in the NFL, he played for the Bengals, Rams, Eagles, Browns, Jets, and Broncos. Jeff started coaching quarterbacks in 1990, and has since coached over 4,000 quarterbacks.",
-				"Jeff is the founder and Head Quarterback Coach at Throw it Deep. He played QB at Eastern Illinois University, and was inducted into EIU Hall of Fame. He was the 135th player selected in 1983 NFL Draft by Cincinnati Bengals (First QB ever drafted out of EIU). During his 8 years in the NFL, he played for the Bengals, Rams, Eagles, Browns, Jets, and Broncos. Jeff started coaching quarterbacks in 1990, and has since coached over 4,000 quarterbacks.",
-				"Jeff is the founder and Head Quarterback Coach at Throw it Deep. He played QB at Eastern Illinois University, and was inducted into EIU Hall of Fame. He was the 135th player selected in 1983 NFL Draft by Cincinnati Bengals (First QB ever drafted out of EIU). During his 8 years in the NFL, he played for the Bengals, Rams, Eagles, Browns, Jets, and Broncos. Jeff started coaching quarterbacks in 1990, and has since coached over 4,000 quarterbacks.",
-				"Jeff is the founder and Head Quarterback Coach at Throw it Deep. He played QB at Eastern Illinois University, and was inducted into EIU Hall of Fame. He was the 135th player selected in 1983 NFL Draft by Cincinnati Bengals (First QB ever drafted out of EIU). During his 8 years in the NFL, he played for the Bengals, Rams, Eagles, Browns, Jets, and Broncos. Jeff started coaching quarterbacks in 1990, and has since coached over 4,000 quarterbacks.",
+				"\"When you apply proper technique with hard work and a great attitude you can accomplish incredible things. Throw It Deep isn't just another quarterback training program—it's the proven system that transforms raw talent into championship-level performers at every level of football. We don't just teach mechanics; we build complete quarterbacks who dominate the mental and physical demands of the position with unmatched precision and confidence.\"",
+				"Jeff Christensen serves as Founder and Head Quarterback Coach of Throw It Deep, bringing an unparalleled combination of NFL experience and three decades of quarterback development expertise to the most successful quarterback training program in the nation. A former NFL quarterback who played college football at Eastern Illinois University, Christensen was selected in the fifth round of the 1983 NFL Draft as the 135th overall pick by the Cincinnati Bengals—becoming the first quarterback ever drafted from Eastern Illinois. During his eight-year professional career, he suited up for the Bengals, Rams, Eagles, Browns, Jets, and Broncos, gaining invaluable insights into what separates elite quarterbacks from the rest.",
+				"Christensen was later inducted into the Eastern Illinois University Hall of Fame, cementing his legacy before transitioning to coaching in 1990 and founding Throw It Deep in 2005 with a revolutionary approach to quarterback development. Over the past 30 years, he has personally coached over 4,000 quarterbacks, including current NFL superstars Patrick Mahomes, Baker Mayfield, Aidan O'Connell, and Trey Lance, as well as rising college stars like Quinn Ewers.",
+				"His systematic approach focuses on building quarterbacks from the ground up, emphasizing proper footwork, throwing mechanics, and body positioning while developing the mental toughness and football IQ necessary for elite performance. Christensen's proven track record speaks volumes: his athletes have earned 60+ state championships, national championships, and over $27 million in scholarships. His innovative training methods have withstood decades of imitation attempts, establishing Throw It Deep as the gold standard for quarterback development at every level of the game.",
+			],
+			bioImage: {
+				src: "https://res.cloudinary.com/dazxax791/image/upload/v1751434031/JeffPatTrav_soidaf.jpg",
+				alt: "Jeff Christensen coaching quarterbacks at a Throw it Deep session",
+			},
+			extraImages: [
+				{
+					src: "https://res.cloudinary.com/dazxax791/image/upload/v1749595003/jeff_christensen_wp2bcs.jpg",
+					alt: "Jeff Christensen coaching quarterbacks at a Throw it Deep session",
+				},
+				{
+					src: "https://res.cloudinary.com/dazxax791/image/upload/v1749595003/jeff_christensen_wp2bcs.jpg",
+					alt: "Jeff Christensen coaching quarterbacks at a Throw it Deep session",
+				},
+			],
+		},
+		{
+			image: {
+				src: "https://res.cloudinary.com/dazxax791/image/upload/v1751429507/jake_christensen_e91o83.jpg",
+				alt: "Jake Christensen coaching quarterbacks at a Throw it Deep session",
+			},
+			slug: "jake-christensen",
+			name: "Jake Christensen",
+			featuredBio:
+				"Jake Christensen is Chief Operating Officer and Quarterback Coach at Throw It Deep. A former four-star Big Ten quarterback at the University of Iowa and 2005 Army All-American, he threw for over 2,200 yards and 17 touchdowns, including four scores against Syracuse. Since joining the coaching staff Jake has trained elite quarterbacks like Patrick Mahomes, Baker Mayfield, Quinn Ewers and Trey Lance. His blend of high-level playing experience and proven systematic teaching continues to set the standard for quarterback development.",
+			fullBio: [
+				'"What separates Throw It Deep from every other quarterback training program is our unwavering commitment to loyalty and teaching proper mechanics at their foundational level—we don\'t just chase trends or quick fixes. Our systematic approach builds quarterbacks who understand that mastering fundamentals and staying true to proven techniques is what creates lasting success, not flashy gimmicks that fade away."',
+				"Jake Christensen serves as Chief Operating Officer and Quarterback Coach of Throw It Deep, bringing unique credibility as both a former Big Ten quarterback and second-generation quarterback developer. Born into the quarterback training world as the son of founder Jeff Christensen, Jake has lived and breathed the Throw It Deep system his entire life, providing him with an unmatched understanding of what creates elite quarterback performance.",
+				"Jake's playing career at the University of Iowa established his credentials as a high-level competitor. As a highly recruited four-star dual-threat quarterback, he participated in the prestigious 2005 Army All-American Bowl before becoming Iowa's starting quarterback. During his college career, Jake threw for over 2,200 yards and 17 touchdowns, including a standout performance against Syracuse where he completed 23 of 32 passes for 278 yards and four touchdowns.",
+				"Since transitioning from player to coach, Jake has been instrumental in training elite quarterbacks including Patrick Mahomes, Baker Mayfield, Quinn Ewers, and Trey Lance, ensuring each athlete receives the systematic development that has made Throw It Deep the gold standard in quarterback training. His coaching approach combines his Big Ten playing experience with the proven Throw It Deep methodology, creating a powerful blend that resonates with quarterbacks at every level.",
+				"Jake's role extends beyond operations—he's actively changing how quarterback development is approached nationwide. Having experienced both the player and coaching perspectives, Jake understands that sustainable success comes from mastering fundamentals, not chasing shortcuts. His leadership ensures Throw It Deep continues setting the standard for developing championship-caliber quarterbacks who dominate at every level of football.",
 			],
 			bioImage: {
 				src: "https://res.cloudinary.com/dazxax791/image/upload/v1749595003/jeff_christensen_wp2bcs.jpg",
@@ -111,52 +140,18 @@ export const FeaturedCoachesData: FeaturedCoachesProps = {
 		},
 		{
 			image: {
-				src: "https://res.cloudinary.com/dazxax791/image/upload/v1749595003/jeff_christensen_wp2bcs.jpg",
+				src: "https://res.cloudinary.com/dazxax791/image/upload/v1751432084/Christan_Hackenberg_1_lnqema.jpg",
 				alt: "Jeff Christensen coaching quarterbacks at a Throw it Deep session",
-				width: 1080,
-				height: 643,
 			},
-			slug: "jeff-christensen",
-			name: "Jeff Christensen",
+			slug: "christan-hackenberg",
+			name: "Christan Hackenberg",
 			featuredBio:
-				"Jeff is the founder and Head Quarterback Coach at Throw it Deep. He played QB at Eastern Illinois University, and was inducted into EIU Hall of Fame. He was the 135th player selected in 1983 NFL Draft by Cincinnati Bengals (First QB ever drafted out of EIU). During his 8 years in the NFL, he played for the Bengals, Rams, Eagles, Browns, Jets, and Broncos. Jeff started coaching quarterbacks in 1990, and has since coached over 4,000 quarterbacks.",
+				"Christian Hackenberg is a Quarterback Coach at Throw It Deep. He played at Penn State and threw for over 8400 yards and 48 touchdowns in three seasons. He was selected by the New York Jets in the second round of the 2016 NFL Draft. He applies his experience against elite competition to Jeff Christensen’s systematic approach. He teaches fundamentals and mental preparation to build complete quarterbacks.",
 			fullBio: [
-				"Jeff is the founder and Head Quarterback Coach at Throw it Deep. He played QB at Eastern Illinois University, and was inducted into EIU Hall of Fame. He was the 135th player selected in 1983 NFL Draft by Cincinnati Bengals (First QB ever drafted out of EIU). During his 8 years in the NFL, he played for the Bengals, Rams, Eagles, Browns, Jets, and Broncos. Jeff started coaching quarterbacks in 1990, and has since coached over 4,000 quarterbacks.",
-				"Jeff is the founder and Head Quarterback Coach at Throw it Deep. He played QB at Eastern Illinois University, and was inducted into EIU Hall of Fame. He was the 135th player selected in 1983 NFL Draft by Cincinnati Bengals (First QB ever drafted out of EIU). During his 8 years in the NFL, he played for the Bengals, Rams, Eagles, Browns, Jets, and Broncos. Jeff started coaching quarterbacks in 1990, and has since coached over 4,000 quarterbacks.",
-				"Jeff is the founder and Head Quarterback Coach at Throw it Deep. He played QB at Eastern Illinois University, and was inducted into EIU Hall of Fame. He was the 135th player selected in 1983 NFL Draft by Cincinnati Bengals (First QB ever drafted out of EIU). During his 8 years in the NFL, he played for the Bengals, Rams, Eagles, Browns, Jets, and Broncos. Jeff started coaching quarterbacks in 1990, and has since coached over 4,000 quarterbacks.",
-				"Jeff is the founder and Head Quarterback Coach at Throw it Deep. He played QB at Eastern Illinois University, and was inducted into EIU Hall of Fame. He was the 135th player selected in 1983 NFL Draft by Cincinnati Bengals (First QB ever drafted out of EIU). During his 8 years in the NFL, he played for the Bengals, Rams, Eagles, Browns, Jets, and Broncos. Jeff started coaching quarterbacks in 1990, and has since coached over 4,000 quarterbacks.",
-			],
-			bioImage: {
-				src: "https://res.cloudinary.com/dazxax791/image/upload/v1749595003/jeff_christensen_wp2bcs.jpg",
-				alt: "Jeff Christensen coaching quarterbacks at a Throw it Deep session",
-			},
-			extraImages: [
-				{
-					src: "https://res.cloudinary.com/dazxax791/image/upload/v1749595003/jeff_christensen_wp2bcs.jpg",
-					alt: "Jeff Christensen coaching quarterbacks at a Throw it Deep session",
-				},
-				{
-					src: "https://res.cloudinary.com/dazxax791/image/upload/v1749595003/jeff_christensen_wp2bcs.jpg",
-					alt: "Jeff Christensen coaching quarterbacks at a Throw it Deep session",
-				},
-			],
-		},
-		{
-			image: {
-				src: "https://res.cloudinary.com/dazxax791/image/upload/v1749595003/jeff_christensen_wp2bcs.jpg",
-				alt: "Jeff Christensen coaching quarterbacks at a Throw it Deep session",
-				width: 1080,
-				height: 643,
-			},
-			slug: "jeff-christensen",
-			name: "Jeff Christensen",
-			featuredBio:
-				"Jeff is the founder and Head Quarterback Coach at Throw it Deep. He played QB at Eastern Illinois University, and was inducted into EIU Hall of Fame. He was the 135th player selected in 1983 NFL Draft by Cincinnati Bengals (First QB ever drafted out of EIU). During his 8 years in the NFL, he played for the Bengals, Rams, Eagles, Browns, Jets, and Broncos. Jeff started coaching quarterbacks in 1990, and has since coached over 4,000 quarterbacks.",
-			fullBio: [
-				"Jeff is the founder and Head Quarterback Coach at Throw it Deep. He played QB at Eastern Illinois University, and was inducted into EIU Hall of Fame. He was the 135th player selected in 1983 NFL Draft by Cincinnati Bengals (First QB ever drafted out of EIU). During his 8 years in the NFL, he played for the Bengals, Rams, Eagles, Browns, Jets, and Broncos. Jeff started coaching quarterbacks in 1990, and has since coached over 4,000 quarterbacks.",
-				"Jeff is the founder and Head Quarterback Coach at Throw it Deep. He played QB at Eastern Illinois University, and was inducted into EIU Hall of Fame. He was the 135th player selected in 1983 NFL Draft by Cincinnati Bengals (First QB ever drafted out of EIU). During his 8 years in the NFL, he played for the Bengals, Rams, Eagles, Browns, Jets, and Broncos. Jeff started coaching quarterbacks in 1990, and has since coached over 4,000 quarterbacks.",
-				"Jeff is the founder and Head Quarterback Coach at Throw it Deep. He played QB at Eastern Illinois University, and was inducted into EIU Hall of Fame. He was the 135th player selected in 1983 NFL Draft by Cincinnati Bengals (First QB ever drafted out of EIU). During his 8 years in the NFL, he played for the Bengals, Rams, Eagles, Browns, Jets, and Broncos. Jeff started coaching quarterbacks in 1990, and has since coached over 4,000 quarterbacks.",
-				"Jeff is the founder and Head Quarterback Coach at Throw it Deep. He played QB at Eastern Illinois University, and was inducted into EIU Hall of Fame. He was the 135th player selected in 1983 NFL Draft by Cincinnati Bengals (First QB ever drafted out of EIU). During his 8 years in the NFL, he played for the Bengals, Rams, Eagles, Browns, Jets, and Broncos. Jeff started coaching quarterbacks in 1990, and has since coached over 4,000 quarterbacks.",
+				"\"Jeff Christensen doesn't just coach quarterbacks—he works miracles and literally saves careers that others have written off. What Jeff does at Throw It Deep is rescuing the quarterback position from all the noise and gimmicks out there, bringing it back to what actually works. The precision and systematic approach he teaches isn't just important—it's absolutely critical for any quarterback who's serious about reaching their potential and competing at the highest levels.\"",
+				"Christian Hackenberg brings elite-level experience and a passion for quarterback development to the Throw It Deep coaching staff, having competed at the highest levels of college and professional football. As Penn State's starting quarterback, Hackenberg threw for over 8,400 yards and 48 touchdowns during his three-year career, earning recognition as one of the Big Ten's premier signal-callers. His arm talent and leadership abilities caught the attention of NFL scouts, leading to his selection by the New York Jets in the second round of the 2016 NFL Draft, where he continued his professional career with multiple organizations.",
+				"Hackenberg's transition from player to coach stems from his deep appreciation for the technical precision and systematic approach that Jeff Christensen has perfected at Throw It Deep. Having experienced the challenges of quarterback play at every level, Hackenberg understands the critical importance of proper fundamentals and mental framework that Jeff's philosophy provides. His vision as a quarterback coach centers on sharing the hard-earned lessons from his playing career while implementing Jeff's revolutionary system that transforms how quarterbacks think, process, and execute.",
+				"What Hackenberg brings to Throw It Deep is authentic credibility from someone who has stood in the pocket against elite competition and understands the mental and physical demands of the position. His coaching approach combines real-world experience with Jeff's proven methodology, creating a powerful blend that resonates with young quarterbacks seeking to reach the next level. Hackenberg's commitment to Jeff's systematic approach ensures that every quarterback he mentors receives the same foundational excellence that separates champions from the competition, building not just better mechanics but complete quarterbacks ready for any challenge.",
 			],
 			bioImage: {
 				src: "https://res.cloudinary.com/dazxax791/image/upload/v1749595003/jeff_christensen_wp2bcs.jpg",
@@ -223,71 +218,71 @@ export const LocationSectionData: LocationsProps = {
 			},
 		},
 		{
-			stateName: "Texas",
+			stateName: "Kansas",
 			isComingSoon: false,
 			image: {
-				src: "https://res.cloudinary.com/dazxax791/image/upload/v1749663675/texas_nj8s6m.jpg",
-				alt: "Skyline image of Dallas-Fort Worth Texas",
+				src: "https://res.cloudinary.com/dazxax791/image/upload/v1751434889/kansas_lz1lv3.png",
+				alt: "Skyline image of Kansas",
 				width: 1080,
 				height: 596,
 			},
 		},
 		{
-			stateName: "Texas",
-			isComingSoon: false,
+			stateName: "Illinois",
+			isComingSoon: true,
 			image: {
-				src: "https://res.cloudinary.com/dazxax791/image/upload/v1749663675/texas_nj8s6m.jpg",
-				alt: "Skyline image of Dallas-Fort Worth Texas",
+				src: "https://res.cloudinary.com/dazxax791/image/upload/v1751434893/illinois_q1pzuk.png",
+				alt: "Skyline image of Illinois",
 				width: 1080,
 				height: 596,
 			},
 		},
 		{
-			stateName: "Texas",
-			isComingSoon: false,
+			stateName: "Florida",
+			isComingSoon: true,
 			image: {
-				src: "https://res.cloudinary.com/dazxax791/image/upload/v1749663675/texas_nj8s6m.jpg",
-				alt: "Skyline image of Dallas-Fort Worth Texas",
+				src: "https://res.cloudinary.com/dazxax791/image/upload/v1751434894/florida_wzyzar.png",
+				alt: "Skyline image of Florida",
 				width: 1080,
 				height: 596,
 			},
 		},
 		{
-			stateName: "Texas",
-			isComingSoon: false,
+			stateName: "Oklahoma",
+			isComingSoon: true,
 			image: {
-				src: "https://res.cloudinary.com/dazxax791/image/upload/v1749663675/texas_nj8s6m.jpg",
-				alt: "Skyline image of Dallas-Fort Worth Texas",
+				src: "https://res.cloudinary.com/dazxax791/image/upload/v1751434889/oklahoma_um6tv2.png",
+				alt: "Skyline image of Oklahoma",
 				width: 1080,
 				height: 596,
 			},
 		},
 		{
-			stateName: "Texas",
-			isComingSoon: false,
+			stateName: "Pennsylvania",
+			isComingSoon: true,
 			image: {
-				src: "https://res.cloudinary.com/dazxax791/image/upload/v1749663675/texas_nj8s6m.jpg",
-				alt: "Skyline image of Dallas-Fort Worth Texas",
+				src: "https://res.cloudinary.com/dazxax791/image/upload/v1751434892/pennsylvania_cykrsw.png",
+				alt: "Skyline image of Pennsylvania",
 				width: 1080,
 				height: 596,
 			},
 		},
 		{
-			stateName: "Texas",
-			isComingSoon: false,
+			stateName: "Georgia",
+			isComingSoon: true,
 			image: {
-				src: "https://res.cloudinary.com/dazxax791/image/upload/v1749663675/texas_nj8s6m.jpg",
-				alt: "Skyline image of Dallas-Fort Worth Texas",
+				src: "https://res.cloudinary.com/dazxax791/image/upload/v1751434888/georgia_uxqvfk.png",
+				alt: "Skyline image of Georgia",
 				width: 1080,
 				height: 596,
 			},
 		},
 		{
-			stateName: "Texas",
-			isComingSoon: false,
+			stateName: "New Jersey",
+			isComingSoon: true,
 			image: {
-				src: "https://res.cloudinary.com/dazxax791/image/upload/v1749663675/texas_nj8s6m.jpg",
-				alt: "Skyline image of Dallas-Fort Worth Texas",
+				src: "https://res.cloudinary.com/dazxax791/image/upload/v1751434891/newjersey_zw3ioh.png",
+				alt: "Skyline image of New Jersey",
 				width: 1080,
 				height: 596,
 			},

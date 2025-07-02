@@ -17,7 +17,7 @@ export const CoachBio: React.FC<CoachTileProps> = ({
 				className="relative col-span-full h-96 w-auto rounded-3xl overflow-hidden mt-26 scroll-mt-0">
 				<Image className="object-cover object-top" fill {...bioImage} />
 			</div>
-			<h1 className="col-span-full md:text-5xl text-4xl font-bold my-8">
+			<h1 className="col-span-full md:text-5xl text-4xl font-bold mt-24 mb-8">
 				{name}
 			</h1>
 			<div

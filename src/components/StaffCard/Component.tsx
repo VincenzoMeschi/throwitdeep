@@ -10,13 +10,13 @@ export const StaffCard: React.FC<StaffCardProps> = ({
 }) => {
 	return (
 		<div className="col-span-4 sm:col-span-3 lg:col-span-4 rounded-3xl overflow-hidden h-fit bg-card">
-			<Image className="h-full object-cover" {...image} />
-			<div className="flex justify-end px-8 pt-6 pb-12 flex-col h-fit">
+			<Image className="h-full object-cover scale-105" {...image} />
+			<div className="flex justify-end px-4 md:px-8 pt-6 pb-12 flex-col h-fit">
 				<h4 className="font-bold text-3xl md:text-[2rem]">
 					{fullName}
 				</h4>
 				<h6 className="text-white/50">
-					{title} {location && " - " + location}
+					{title} {location && " | " + location}
 				</h6>
 			</div>
 		</div>
