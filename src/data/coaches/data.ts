@@ -112,16 +112,12 @@ export const FeaturedCoachesData: FeaturedCoachesProps = {
 				"Smith wishes he had found this approach earlier in his career. The difference between scattered coaching and Jeff's comprehensive system isn't just about better statistics – it's about building quarterbacks who can sustain peak performance throughout their careers. Now Smith channels that hard-earned wisdom into developing the next generation, ensuring young quarterbacks get the single-source, comprehensive training that could have extended his own playing days.",
 			],
 			bioImage: {
-				src: "https://res.cloudinary.com/dazxax791/image/upload/v1749595003/jeff_christensen_wp2bcs.jpg",
+				src: "https://res.cloudinary.com/dazxax791/image/upload/v1751508523/Zach_Smith_1_sfgpfu.jpg",
 				alt: "Jeff Christensen coaching quarterbacks at a Throw it Deep session",
 			},
 			extraImages: [
 				{
-					src: "https://res.cloudinary.com/dazxax791/image/upload/v1749595003/jeff_christensen_wp2bcs.jpg",
-					alt: "Jeff Christensen coaching quarterbacks at a Throw it Deep session",
-				},
-				{
-					src: "https://res.cloudinary.com/dazxax791/image/upload/v1749595003/jeff_christensen_wp2bcs.jpg",
+					src: "https://res.cloudinary.com/dazxax791/image/upload/v1751508523/Zach_Smith_2_txmwnr.jpg",
 					alt: "Jeff Christensen coaching quarterbacks at a Throw it Deep session",
 				},
 			],
@@ -144,16 +140,12 @@ export const FeaturedCoachesData: FeaturedCoachesProps = {
 				"Francis's partnership with Jeff Christensen and Throw It Deep represents the perfect marriage of collegiate coaching experience and specialized quarterback development. Young quarterbacks benefit from Francis's understanding of what college coaches seek, combined with Christensen's proven system for developing those exact qualities.",
 			],
 			bioImage: {
-				src: "https://res.cloudinary.com/dazxax791/image/upload/v1749595003/jeff_christensen_wp2bcs.jpg",
+				src: "https://res.cloudinary.com/dazxax791/image/upload/v1751508524/Tye_Francis_2_wsqltn.jpg",
 				alt: "Jeff Christensen coaching quarterbacks at a Throw it Deep session",
 			},
 			extraImages: [
 				{
-					src: "https://res.cloudinary.com/dazxax791/image/upload/v1749595003/jeff_christensen_wp2bcs.jpg",
-					alt: "Jeff Christensen coaching quarterbacks at a Throw it Deep session",
-				},
-				{
-					src: "https://res.cloudinary.com/dazxax791/image/upload/v1749595003/jeff_christensen_wp2bcs.jpg",
+					src: "https://res.cloudinary.com/dazxax791/image/upload/v1751431862/TyeFrancis_jvwzsb.jpg",
 					alt: "Jeff Christensen coaching quarterbacks at a Throw it Deep session",
 				},
 			],
