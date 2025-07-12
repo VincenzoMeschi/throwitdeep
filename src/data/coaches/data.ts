@@ -34,67 +34,67 @@ export const FeaturedCoachesData: FeaturedCoachesProps = {
 				},
 			],
 		},
-		{
-			image: {
-				src: "https://res.cloudinary.com/dazxax791/image/upload/v1751429507/jake_christensen_e91o83.jpg",
-				alt: "Jake Christensen coaching quarterbacks at a Throw it Deep session",
-			},
-			slug: "jake-christensen",
-			name: "Jake Christensen",
-			featuredBio:
-				"Jake Christensen is Chief Operating Officer and Quarterback Coach at Throw It Deep. A former four-star Big Ten quarterback at the University of Iowa and 2005 Army All-American, he threw for over 2,200 yards and 17 touchdowns, including four scores against Syracuse. Since joining the coaching staff Jake has trained elite quarterbacks like Patrick Mahomes, Baker Mayfield, Quinn Ewers and Trey Lance. His blend of high-level playing experience and proven systematic teaching continues to set the standard for quarterback development.",
-			fullBio: [
-				'"What separates Throw It Deep from every other quarterback training program is our unwavering commitment to loyalty and teaching proper mechanics at their foundational level—we don\'t just chase trends or quick fixes. Our systematic approach builds quarterbacks who understand that mastering fundamentals and staying true to proven techniques is what creates lasting success, not flashy gimmicks that fade away."',
-				"Jake Christensen serves as Chief Operating Officer and Quarterback Coach of Throw It Deep, bringing unique credibility as both a former Big Ten quarterback and second-generation quarterback developer. Born into the quarterback training world as the son of founder Jeff Christensen, Jake has lived and breathed the Throw It Deep system his entire life, providing him with an unmatched understanding of what creates elite quarterback performance.",
-				"Jake's playing career at the University of Iowa established his credentials as a high-level competitor. As a highly recruited four-star dual-threat quarterback, he participated in the prestigious 2005 Army All-American Bowl before becoming Iowa's starting quarterback. During his college career, Jake threw for over 2,200 yards and 17 touchdowns, including a standout performance against Syracuse where he completed 23 of 32 passes for 278 yards and four touchdowns.",
-				"Since transitioning from player to coach, Jake has been instrumental in training elite quarterbacks including Patrick Mahomes, Baker Mayfield, Quinn Ewers, and Trey Lance, ensuring each athlete receives the systematic development that has made Throw It Deep the gold standard in quarterback training. His coaching approach combines his Big Ten playing experience with the proven Throw It Deep methodology, creating a powerful blend that resonates with quarterbacks at every level.",
-				"Jake's role extends beyond operations—he's actively changing how quarterback development is approached nationwide. Having experienced both the player and coaching perspectives, Jake understands that sustainable success comes from mastering fundamentals, not chasing shortcuts. His leadership ensures Throw It Deep continues setting the standard for developing championship-caliber quarterbacks who dominate at every level of football.",
-			],
-			bioImage: {
-				src: "https://res.cloudinary.com/dazxax791/image/upload/v1749595003/jeff_christensen_wp2bcs.jpg",
-				alt: "Jeff Christensen coaching quarterbacks at a Throw it Deep session",
-			},
-			extraImages: [
-				{
-					src: "https://res.cloudinary.com/dazxax791/image/upload/v1749595003/jeff_christensen_wp2bcs.jpg",
-					alt: "Jeff Christensen coaching quarterbacks at a Throw it Deep session",
-				},
-				{
-					src: "https://res.cloudinary.com/dazxax791/image/upload/v1749595003/jeff_christensen_wp2bcs.jpg",
-					alt: "Jeff Christensen coaching quarterbacks at a Throw it Deep session",
-				},
-			],
-		},
-		{
-			image: {
-				src: "https://res.cloudinary.com/dazxax791/image/upload/v1751432084/Christan_Hackenberg_1_lnqema.jpg",
-				alt: "Jeff Christensen coaching quarterbacks at a Throw it Deep session",
-			},
-			slug: "christan-hackenberg",
-			name: "Christan Hackenberg",
-			featuredBio:
-				"Christian Hackenberg is a Quarterback Coach at Throw It Deep. He played at Penn State and threw for over 8400 yards and 48 touchdowns in three seasons. He was selected by the New York Jets in the second round of the 2016 NFL Draft. He applies his experience against elite competition to Jeff Christensen’s systematic approach. He teaches fundamentals and mental preparation to build complete quarterbacks.",
-			fullBio: [
-				"\"Jeff Christensen doesn't just coach quarterbacks—he works miracles and literally saves careers that others have written off. What Jeff does at Throw It Deep is rescuing the quarterback position from all the noise and gimmicks out there, bringing it back to what actually works. The precision and systematic approach he teaches isn't just important—it's absolutely critical for any quarterback who's serious about reaching their potential and competing at the highest levels.\"",
-				"Christian Hackenberg brings elite-level experience and a passion for quarterback development to the Throw It Deep coaching staff, having competed at the highest levels of college and professional football. As Penn State's starting quarterback, Hackenberg threw for over 8,400 yards and 48 touchdowns during his three-year career, earning recognition as one of the Big Ten's premier signal-callers. His arm talent and leadership abilities caught the attention of NFL scouts, leading to his selection by the New York Jets in the second round of the 2016 NFL Draft, where he continued his professional career with multiple organizations.",
-				"Hackenberg's transition from player to coach stems from his deep appreciation for the technical precision and systematic approach that Jeff Christensen has perfected at Throw It Deep. Having experienced the challenges of quarterback play at every level, Hackenberg understands the critical importance of proper fundamentals and mental framework that Jeff's philosophy provides. His vision as a quarterback coach centers on sharing the hard-earned lessons from his playing career while implementing Jeff's revolutionary system that transforms how quarterbacks think, process, and execute.",
-				"What Hackenberg brings to Throw It Deep is authentic credibility from someone who has stood in the pocket against elite competition and understands the mental and physical demands of the position. His coaching approach combines real-world experience with Jeff's proven methodology, creating a powerful blend that resonates with young quarterbacks seeking to reach the next level. Hackenberg's commitment to Jeff's systematic approach ensures that every quarterback he mentors receives the same foundational excellence that separates champions from the competition, building not just better mechanics but complete quarterbacks ready for any challenge.",
-			],
-			bioImage: {
-				src: "https://res.cloudinary.com/dazxax791/image/upload/v1749595003/jeff_christensen_wp2bcs.jpg",
-				alt: "Jeff Christensen coaching quarterbacks at a Throw it Deep session",
-			},
-			extraImages: [
-				{
-					src: "https://res.cloudinary.com/dazxax791/image/upload/v1749595003/jeff_christensen_wp2bcs.jpg",
-					alt: "Jeff Christensen coaching quarterbacks at a Throw it Deep session",
-				},
-				{
-					src: "https://res.cloudinary.com/dazxax791/image/upload/v1749595003/jeff_christensen_wp2bcs.jpg",
-					alt: "Jeff Christensen coaching quarterbacks at a Throw it Deep session",
-				},
-			],
-		},
+		// {
+		// 	image: {
+		// 		src: "https://res.cloudinary.com/dazxax791/image/upload/v1751429507/jake_christensen_e91o83.jpg",
+		// 		alt: "Jake Christensen coaching quarterbacks at a Throw it Deep session",
+		// 	},
+		// 	slug: "jake-christensen",
+		// 	name: "Jake Christensen",
+		// 	featuredBio:
+		// 		"Jake Christensen is Chief Operating Officer and Quarterback Coach at Throw It Deep. A former four-star Big Ten quarterback at the University of Iowa and 2005 Army All-American, he threw for over 2,200 yards and 17 touchdowns, including four scores against Syracuse. Since joining the coaching staff Jake has trained elite quarterbacks like Patrick Mahomes, Baker Mayfield, Quinn Ewers and Trey Lance. His blend of high-level playing experience and proven systematic teaching continues to set the standard for quarterback development.",
+		// 	fullBio: [
+		// 		'"What separates Throw It Deep from every other quarterback training program is our unwavering commitment to loyalty and teaching proper mechanics at their foundational level—we don\'t just chase trends or quick fixes. Our systematic approach builds quarterbacks who understand that mastering fundamentals and staying true to proven techniques is what creates lasting success, not flashy gimmicks that fade away."',
+		// 		"Jake Christensen serves as Chief Operating Officer and Quarterback Coach of Throw It Deep, bringing unique credibility as both a former Big Ten quarterback and second-generation quarterback developer. Born into the quarterback training world as the son of founder Jeff Christensen, Jake has lived and breathed the Throw It Deep system his entire life, providing him with an unmatched understanding of what creates elite quarterback performance.",
+		// 		"Jake's playing career at the University of Iowa established his credentials as a high-level competitor. As a highly recruited four-star dual-threat quarterback, he participated in the prestigious 2005 Army All-American Bowl before becoming Iowa's starting quarterback. During his college career, Jake threw for over 2,200 yards and 17 touchdowns, including a standout performance against Syracuse where he completed 23 of 32 passes for 278 yards and four touchdowns.",
+		// 		"Since transitioning from player to coach, Jake has been instrumental in training elite quarterbacks including Patrick Mahomes, Baker Mayfield, Quinn Ewers, and Trey Lance, ensuring each athlete receives the systematic development that has made Throw It Deep the gold standard in quarterback training. His coaching approach combines his Big Ten playing experience with the proven Throw It Deep methodology, creating a powerful blend that resonates with quarterbacks at every level.",
+		// 		"Jake's role extends beyond operations—he's actively changing how quarterback development is approached nationwide. Having experienced both the player and coaching perspectives, Jake understands that sustainable success comes from mastering fundamentals, not chasing shortcuts. His leadership ensures Throw It Deep continues setting the standard for developing championship-caliber quarterbacks who dominate at every level of football.",
+		// 	],
+		// 	bioImage: {
+		// 		src: "https://res.cloudinary.com/dazxax791/image/upload/v1749595003/jeff_christensen_wp2bcs.jpg",
+		// 		alt: "Jeff Christensen coaching quarterbacks at a Throw it Deep session",
+		// 	},
+		// 	extraImages: [
+		// 		{
+		// 			src: "https://res.cloudinary.com/dazxax791/image/upload/v1749595003/jeff_christensen_wp2bcs.jpg",
+		// 			alt: "Jeff Christensen coaching quarterbacks at a Throw it Deep session",
+		// 		},
+		// 		{
+		// 			src: "https://res.cloudinary.com/dazxax791/image/upload/v1749595003/jeff_christensen_wp2bcs.jpg",
+		// 			alt: "Jeff Christensen coaching quarterbacks at a Throw it Deep session",
+		// 		},
+		// 	],
+		// },
+		// {
+		// 	image: {
+		// 		src: "https://res.cloudinary.com/dazxax791/image/upload/v1751432084/Christan_Hackenberg_1_lnqema.jpg",
+		// 		alt: "Jeff Christensen coaching quarterbacks at a Throw it Deep session",
+		// 	},
+		// 	slug: "christan-hackenberg",
+		// 	name: "Christan Hackenberg",
+		// 	featuredBio:
+		// 		"Christian Hackenberg is a Quarterback Coach at Throw It Deep. He played at Penn State and threw for over 8400 yards and 48 touchdowns in three seasons. He was selected by the New York Jets in the second round of the 2016 NFL Draft. He applies his experience against elite competition to Jeff Christensen’s systematic approach. He teaches fundamentals and mental preparation to build complete quarterbacks.",
+		// 	fullBio: [
+		// 		"\"Jeff Christensen doesn't just coach quarterbacks—he works miracles and literally saves careers that others have written off. What Jeff does at Throw It Deep is rescuing the quarterback position from all the noise and gimmicks out there, bringing it back to what actually works. The precision and systematic approach he teaches isn't just important—it's absolutely critical for any quarterback who's serious about reaching their potential and competing at the highest levels.\"",
+		// 		"Christian Hackenberg brings elite-level experience and a passion for quarterback development to the Throw It Deep coaching staff, having competed at the highest levels of college and professional football. As Penn State's starting quarterback, Hackenberg threw for over 8,400 yards and 48 touchdowns during his three-year career, earning recognition as one of the Big Ten's premier signal-callers. His arm talent and leadership abilities caught the attention of NFL scouts, leading to his selection by the New York Jets in the second round of the 2016 NFL Draft, where he continued his professional career with multiple organizations.",
+		// 		"Hackenberg's transition from player to coach stems from his deep appreciation for the technical precision and systematic approach that Jeff Christensen has perfected at Throw It Deep. Having experienced the challenges of quarterback play at every level, Hackenberg understands the critical importance of proper fundamentals and mental framework that Jeff's philosophy provides. His vision as a quarterback coach centers on sharing the hard-earned lessons from his playing career while implementing Jeff's revolutionary system that transforms how quarterbacks think, process, and execute.",
+		// 		"What Hackenberg brings to Throw It Deep is authentic credibility from someone who has stood in the pocket against elite competition and understands the mental and physical demands of the position. His coaching approach combines real-world experience with Jeff's proven methodology, creating a powerful blend that resonates with young quarterbacks seeking to reach the next level. Hackenberg's commitment to Jeff's systematic approach ensures that every quarterback he mentors receives the same foundational excellence that separates champions from the competition, building not just better mechanics but complete quarterbacks ready for any challenge.",
+		// 	],
+		// 	bioImage: {
+		// 		src: "https://res.cloudinary.com/dazxax791/image/upload/v1749595003/jeff_christensen_wp2bcs.jpg",
+		// 		alt: "Jeff Christensen coaching quarterbacks at a Throw it Deep session",
+		// 	},
+		// 	extraImages: [
+		// 		{
+		// 			src: "https://res.cloudinary.com/dazxax791/image/upload/v1749595003/jeff_christensen_wp2bcs.jpg",
+		// 			alt: "Jeff Christensen coaching quarterbacks at a Throw it Deep session",
+		// 		},
+		// 		{
+		// 			src: "https://res.cloudinary.com/dazxax791/image/upload/v1749595003/jeff_christensen_wp2bcs.jpg",
+		// 			alt: "Jeff Christensen coaching quarterbacks at a Throw it Deep session",
+		// 		},
+		// 	],
+		// },
 		{
 			image: {
 				src: "https://res.cloudinary.com/dazxax791/image/upload/v1751430769/Zach_Smith_1_luixya.jpg",
