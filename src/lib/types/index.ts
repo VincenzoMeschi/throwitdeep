@@ -9,7 +9,7 @@ export type ImageProps = {
 	height?: number;
 	fill?: boolean;
 	imagePositionOverride?: [number, number];
-};
+} & React.HTMLAttributes<HTMLDivElement>;
 
 export type CTAButtonProps = {
 	label: string;
@@ -23,6 +23,4 @@ export type LinkProps = {
 	url: string;
 };
 
-export type Input = {
-	
-}
+export type Input = {};

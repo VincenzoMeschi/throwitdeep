@@ -31,7 +31,7 @@ export const PlayerCard = ({
 				src={card.src}
 				alt={card.title}
 				fill
-				className="absolute inset-0 z-10 object-cover"
+				className="absolute scale-101 z-10 object-cover"
 			/>
 		</motion.div>
 	);

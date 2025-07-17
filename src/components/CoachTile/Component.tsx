@@ -3,6 +3,7 @@ import { CoachTileProps } from "@/components/CoachTile/config";
 import Image from "next/image";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
+import { CTAButton } from "../CTAButton/Component";
 
 export const CoachTile: React.FC<CoachTileProps> = ({
 	image,
@@ -25,6 +26,9 @@ export const CoachTile: React.FC<CoachTileProps> = ({
 			<div className="flex flex-col basis-3/4 justify-start gap-2 md:gap-5 py-7 md:p-7">
 				<h3 className="text-3xl md:text-4xl font-bold">{name}</h3>
 				<p>{featuredBio}</p>
+				<span className="italic font-bold text-sm mt-2">
+					Read more...
+				</span>
 			</div>
 		</Link>
 	);

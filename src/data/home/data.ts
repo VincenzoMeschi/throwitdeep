@@ -57,6 +57,11 @@ export const AthleteSectionData: AthleteSectionProps = {
 			src: "https://res.cloudinary.com/dazxax791/image/upload/v1752297186/trey_v7zhk0.png",
 		},
 		{
+			category: "University of Iowa",
+			title: "Mark Gronowski",
+			src: "https://res.cloudinary.com/dazxax791/image/upload/v1752732979/Mark_Grownowski_ngo3ob.jpg",
+		},
+		{
 			category: "University of Cincinnati",
 			title: "Brendan Sorsby",
 			src: "https://res.cloudinary.com/dazxax791/image/upload/v1749477803/brendan_sorsby_x4c6gu.jpg",

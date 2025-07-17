@@ -140,10 +140,15 @@ export const FeaturedCoachesData: FeaturedCoachesProps = {
 				"Francis's partnership with Jeff Christensen and Throw It Deep represents the perfect marriage of collegiate coaching experience and specialized quarterback development. Young quarterbacks benefit from Francis's understanding of what college coaches seek, combined with Christensen's proven system for developing those exact qualities.",
 			],
 			bioImage: {
-				src: "https://res.cloudinary.com/dazxax791/image/upload/v1751508524/Tye_Francis_2_wsqltn.jpg",
+				src: "https://res.cloudinary.com/dazxax791/image/upload/v1751431862/TyeFrancis_jvwzsb.jpg",
 				alt: "Jeff Christensen coaching quarterbacks at a Throw it Deep session",
+				className: "object-center object-cover",
 			},
 			extraImages: [
+				{
+					src: "https://res.cloudinary.com/dazxax791/image/upload/v1751508524/Tye_Francis_2_wsqltn.jpg",
+					alt: "Jeff Christensen coaching quarterbacks at a Throw it Deep session",
+				},
 				{
 					src: "https://res.cloudinary.com/dazxax791/image/upload/v1751431862/TyeFrancis_jvwzsb.jpg",
 					alt: "Jeff Christensen coaching quarterbacks at a Throw it Deep session",

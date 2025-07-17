@@ -54,7 +54,7 @@ export const HighImpactHero: React.FC<HighImpactHeroProps> = ({
 
 			<div className="lg:col-span-6 md:col-span-3 col-span-full h-fit md:h-full flex flex-col justify-center z-1 gap-4">
 				<GradualSpacing
-					className="block sm:hidden lg:block text-[2.5rem] md:text-[4rem] font-bold leading-none"
+					className="block sm:hidden lg:block text-[2rem] md:text-[4rem] font-bold leading-none"
 					text={mainHeading}
 					duration={0.6}
 					delay={0}

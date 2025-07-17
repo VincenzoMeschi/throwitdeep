@@ -12,7 +12,7 @@ export function GradualSpacing({
 	duration: number;
 } & React.HTMLAttributes<HTMLDivElement>) {
 	return (
-		<div className="flex flex-wrap w-full">
+		<div className="flex flex-nowrap w-full">
 			{text.split("").map((char, i) => (
 				<motion.div
 					key={i}
